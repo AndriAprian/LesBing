@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_bg"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/latihan5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:text="@string/latihan5"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latihan3"
+        app:layout_constraintVertical_bias="0.053"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/test_toefl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_toefl"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latihan5"
+        app:layout_constraintVertical_bias="0.083"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/mulai_test"
+        android:layout_width="342dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:text="@string/mulai_test"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test_toefl"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/latihan4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity=""
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:text="@string/latihan4"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latihan2"
+        app:layout_constraintVertical_bias="0.002"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mulai_latihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/utama"
+        android:textColor="#FFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/latihan2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:text="@string/latihan2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/latihan3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:radius="20dp"
+        android:soundEffectsEnabled="false"
+        android:text="@string/latihan3"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/latihan4"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latihan1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/latihan1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/color_bg_bordered_button"
+        android:text="@string/latihan1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/latihan2"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mulai_latihan"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LesBing</string>
+    <string name="login">Login</string>
+    <string name="daftar">Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nama">Nama</string>
+    <string name="error">Error</string>
+    <string name="invalid_account">invalid account</string>
+    <string name="ok">Ok</string>
+    <string name="emailexists">Email Exists</string>
+    <string name="can_not_create">Can No Create</string>
+    <string name="utama">Mulai Latihan</string>
+    <string name="latihan1">Latihan 1</string>
+    <string name="latihan2">Latihan 2</string>
+    <string name="latihan3">Latihan 3</string>
+    <string name="latihan4">Latihan 4</string>
+    <string name="latihan5">Latihan 5</string>
+    <string name="test_toefl">Test TOEFL</string>
+    <string name="mulai_test">Mulai Test TOEFL</string>
+    <string name="answer2">answer2</string>
+    <string name="answer1">answer1</string>
+    <string name="answer3">answer3</string>
+    <string name="answer4">answer4</string>
+    <string name="pertanyaan">Pertanyaan</string>
+</resources>

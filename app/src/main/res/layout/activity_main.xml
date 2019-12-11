@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#428bca"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:backgroundTint="#FFFF"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email"
+        android:textColor="#FFFF"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFF"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFFF"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textColor="#FFFF"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFF" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom4"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom4"
+        android:text="@string/daftar" />
+
+
+</LinearLayout>
